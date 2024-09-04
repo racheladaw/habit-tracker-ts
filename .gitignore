@@ -54,3 +54,6 @@ node_modules/
 /public/system
 
 .byebug_history
+
+# Ignore VSCode config files
+/.vscode
