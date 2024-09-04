@@ -94,6 +94,9 @@ GEM
     connection_pool (2.4.1)
     crass (1.0.6)
     date (3.3.4)
+    debase (0.2.5.beta2)
+      debase-ruby_core_source (>= 0.10.12)
+    debase-ruby_core_source (3.3.1)
     devise (4.9.4)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -219,6 +222,8 @@ GEM
       railties (>= 5.2)
     rexml (3.3.6)
       strscan
+    ruby-debug-ide (0.7.3)
+      rake (>= 0.8.1)
     rubyzip (2.3.2)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -296,6 +301,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  debase (= 0.2.5.beta2)
   devise (~> 4.9)
   jbuilder (~> 2.7)
   listen (~> 3.2)
@@ -303,6 +309,7 @@ DEPENDENCIES
   psych (< 4)
   puma (~> 4.1)
   rails (= 7.2.0)
+  ruby-debug-ide
   sass-rails (>= 6)
   selenium-webdriver
   spring
