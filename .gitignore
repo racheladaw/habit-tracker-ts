@@ -49,7 +49,10 @@
 yarn-debug.log*
 .yarn-integrity
 
-node_modules/
+/node_modules/
+
+# Ignore esbuild builds
+/app/assets/builds
 
 /public/system
 
