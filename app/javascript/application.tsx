@@ -1,7 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import NavBar from "./navbar";
 
-const App = () => <h1>Hello from React!</h1>;
+export default function App() {
+  return (
+    <div>
+      <NavBar />
+
+      <h1>Welcome to HabitTracker</h1>
+    </div>
+  );
+}
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
