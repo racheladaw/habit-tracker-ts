@@ -4,11 +4,11 @@ import NavBar from "./navbar";
 
 export default function App() {
   return (
-    <div>
+    <>
       <NavBar />
 
       <h1>Welcome to HabitTracker</h1>
-    </div>
+    </>
   );
 }
 
