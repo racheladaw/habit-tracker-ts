@@ -1,8 +1,15 @@
 import React from "react";
 import { useEffect, useState } from "react";
 
+interface User {
+  id: number;
+  email: string;
+  created_at: string;
+  updated_at: string;
+}
+
 export default function NavBar() {
-  const [currentUser, setCurrentUser] = useState(null);
+  const [currentUser, setCurrentUser] = useState<null | User>(null);
 
   useEffect(() => {
     fetch("http://localhost:3000/api/v1/user")
