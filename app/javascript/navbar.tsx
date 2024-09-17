@@ -21,7 +21,7 @@ export default function NavBar() {
         'X-CSRF-Token': csrfToken
       },
     })
-    .then(response => setCurrentUser(null))
+    .then(() => setCurrentUser(null))
     .catch(error => console.error('Error:', error));
   }
 
