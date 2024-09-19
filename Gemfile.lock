@@ -105,6 +105,8 @@ GEM
       warden (~> 1.2.3)
     drb (2.2.1)
     erubi (1.13.0)
+    fast_jsonapi (1.5)
+      activesupport (>= 4.2)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-aarch64-linux-musl)
     ffi (1.17.0-arm-linux-gnu)
@@ -303,6 +305,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   debase (= 0.2.5.beta2)
   devise (~> 4.9)
+  fast_jsonapi
   jbuilder (~> 2.7)
   listen (~> 3.2)
   pg
