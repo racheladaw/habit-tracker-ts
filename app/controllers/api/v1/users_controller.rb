@@ -1,5 +1,5 @@
 class Api::V1::UsersController < ApplicationController
   def show
-    render json: current_user
+    render json: UserSerializer.new(current_user).serializable_hash
   end
 end
